@@ -1,9 +1,7 @@
-#Write a program to print first n prime numbers. 
+#Write a program to print prime numbers between 1 to 100. 
 
 
-n = int(input("Enter the value of n: "))
-
-for num in range(1, n + 1):
+for num in range(1, 101):
     if num > 1:
         for i in range(2, int(num**0.5) + 1):
             if (num % i) == 0:
