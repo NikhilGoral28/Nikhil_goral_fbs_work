@@ -16,4 +16,4 @@ for i in range(n):
     if i % 2  == 1:
         row.reverse()
     
-    print(row)
+    print(ro)
